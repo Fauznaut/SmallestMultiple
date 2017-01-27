@@ -4,13 +4,15 @@ using namespace std;
 int divisorLimit();
 int smallestMultiple(int limit);
 
+static int limit;
+
 int main() {
-    cout << smallestMultiple(divisorLimit());
+    cout << "Smallest multiple of 1 through " << limit << ": " << smallestMultiple(divisorLimit());
     return 0;
 }
 
 int divisorLimit() {
-    static int limit;
+    cout << "Enter an integer:";
     cin >> limit;
     return limit;
 }
