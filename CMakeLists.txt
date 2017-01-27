@@ -3,5 +3,5 @@ project(SmallestMultiple)
 
 set(CMAKE_CXX_STANDARD 11)
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES SmallestMultiple.cpp)
 add_executable(SmallestMultiple ${SOURCE_FILES})
